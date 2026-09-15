@@ -55,7 +55,7 @@
     - Bit-for-bit reproducible, zero global mutation.
 
 * what is different between Traditional and Immutable distros?
-
+  #+begin_example
   ┌─────────────────────────────────────────────────────────────┐
   │                    Linux Architectures                      │
   └──────────────────────────────┬──────────────────────────────┘
@@ -73,6 +73,7 @@
   in place (/usr)          Image deployment         (/gnu/store)
   High risk of             Flatpak/Podman           Symlink profiles
   breakage                 containers               Instant rollbacks
+  #+end_example
 
 * The Problem: Mutating Global State
 
